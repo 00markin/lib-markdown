@@ -1,0 +1,24 @@
+{
+  "name": "lib-markdown",
+  "version": "1.0.0",
+  "description": "a simple library to test markdown links",
+  "main": "./cli.js",
+  "bin": {
+    "lib-markdown": "./cli.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "jest",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "keywords": [],
+  "author": "00Markin",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.2.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
